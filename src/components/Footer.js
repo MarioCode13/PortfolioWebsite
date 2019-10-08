@@ -1,14 +1,25 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Footer = (props) => (
-    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; Gatsby Starter - Dimension. Design: <a href="https://html5up.net">HTML5 UP</a>. Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a></p>
-    </footer>
+const Footer = props => (
+  <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
+    <div>
+      <a className="logo" href="https://github.com/MarioCode13" target="_blank">
+        <span className="social" className="icon fa fa-github"></span>
+      </a>
+      <a
+        className="logo"
+        href="https://www.linkedin.com/in/mario-liebenberg/"
+        target="_blank"
+      >
+        <span className="social" className="fa fa-linkedin-square"></span>
+      </a>
+    </div>
+  </footer>
 )
 
 Footer.propTypes = {
-    timeout: PropTypes.bool
+  timeout: PropTypes.bool,
 }
 
 export default Footer
