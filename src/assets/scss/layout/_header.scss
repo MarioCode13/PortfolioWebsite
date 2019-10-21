@@ -279,6 +279,7 @@
   }
 }
 
+// ************** Desktop **********************
 #home-button {
   border-radius: 100%;
   font-size: 50px;
@@ -291,8 +292,8 @@
 }
 
 #slider-image {
-  width: 38rem;
-  height: 18rem;
+  width: 44rem;
+  height: 22rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 200px;
@@ -304,23 +305,24 @@
   border: 0;
   text-decoration: none;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 #webapp-image {
-  width: 38rem;
-  height: 18rem;
+  width: 44rem;
+  height: 20rem;
   margin-left: auto;
   margin-right: auto;
 }
 #recipe-image {
-  width: 38rem;
-  height: 18rem;
+  width: 44rem;
+  height: 22rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
 }
 #burger-image {
-  width: 38rem;
-  height: 18rem;
+  width: 44rem;
+  height: 22rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -334,7 +336,263 @@
   position: fixed;
   z-index: 99;
 }
+
 #back-top:hover {
   opacity: 0.8;
   filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+#todo-image {
+  width: 50rem;
+  height: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+#reaction-image {
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.built {
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.logo {
+  width: 60px;
+  margin: 0px 5px;
+}
+.logo-sm {
+  width: 70px;
+  margin: 0px 5px;
+}
+.logo-bg {
+  width: 50px;
+  margin: 0px 5px;
+}
+.logo-vert {
+  padding: 10px 0;
+  width: 70px;
+  margin: 0px 5px;
+}
+.clear {
+  clear: both;
+}
+.link {
+  color: rgb(100, 67, 247);
+  text-decoration: underline;
+}
+
+// ************** Tablet **********************
+@media screen and (max-width: 800px) {
+  #home-button {
+    border-radius: 100%;
+    font-size: 50px;
+    padding: 30px 10px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+  }
+  #home-button:hover {
+    color: white;
+  }
+
+  #slider-image {
+    width: 38rem;
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+  }
+  #slider-button {
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  #recipe-image {
+    width: 38rem;
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  #webapp-image {
+    width: 38rem;
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #burger-image {
+    width: 38rem;
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #back-top {
+    float: right;
+    font-size: 4rem;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.1;
+    position: fixed;
+    z-index: 99;
+  }
+
+  #back-top:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+
+  #todo-image {
+    width: 37rem;
+    height: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+
+  #reaction-image {
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .built {
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+  .logo {
+    width: 35px;
+    margin: 0px 5px;
+  }
+  .logo-sm {
+    width: 45px;
+    margin: 0px 5px;
+  }
+  .logo-bg {
+    width: 25px;
+    margin: 0px 5px;
+  }
+  .logo-vert {
+    padding: 10px 0;
+    width: 45px;
+    margin: 0px 5px;
+  }
+}
+
+// ************** Mobile **********************
+@media screen and (max-width: 550px) {
+  #home-button {
+    border-radius: 100%;
+    font-size: 50px;
+    color: rgb(100, 100, 100);
+  }
+  #home-button:hover {
+    color: white;
+  }
+
+  #slider-image {
+    width: 38rem;
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+  }
+  #slider-button {
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #recipe-image {
+    width: 24rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  #burger-image {
+    width: 24rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #webapp-image {
+    width: 24rem;
+    height: 11rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #back-top {
+    float: right;
+    font-size: 4rem;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0.1;
+    position: fixed;
+    z-index: 99;
+  }
+
+  #back-top:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+  }
+
+  #todo-image {
+    width: 24rem;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  #reaction-image {
+    width: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #build-span {
+    display: inline-block;
+    margin-left: 10px;
+    max-width: 350px;
+  }
+  .built {
+    float: left;
+
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  .logo {
+    width: 20px;
+    margin: 0px 5px;
+  }
+  .logo-sm {
+    width: 30px;
+    margin: 0px 5px;
+  }
+  .logo-bg {
+    width: 15px;
+    margin: 0px 5px;
+  }
+  .logo-vert {
+    padding: 10px 0;
+    width: 30px;
+    margin: 0px 5px;
+  }
 }

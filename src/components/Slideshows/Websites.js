@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
-function ToDo() {
+function Websites() {
   const [index, setIndex] = useState(0)
   const { allFile } = useStaticQuery(
     graphql`
       query {
         allFile(
           sort: { fields: name, order: ASC }
-          filter: { relativeDirectory: { eq: "todo" } }
+          filter: { relativeDirectory: { eq: "websites" } }
         ) {
           edges {
             node {
@@ -38,14 +38,24 @@ function ToDo() {
   console.log(length)
   return (
     <div>
-      <div id="todo-image" className="image main">
+      <div id="recipe-image" className="image main">
         <Img
           fluid={node.childImageSharp.fluid}
           key={node.id}
           alt={node.name.replace(/-/g, ' ').substring(2)}
         />
       </div>
+      <div id="slider-button">
+        <button
+          onClick={() => handlePrevious()}
+          className="fa fa-caret-left"
+        ></button>
+        <button
+          onClick={() => handleNext()}
+          className="fa fa-caret-right"
+        ></button>
+      </div>
     </div>
   )
 }
-export default ToDo
+export default Websites
