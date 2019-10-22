@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 
-import SlideShow from '../components/slideshow'
 import Webapp from '../components/Slideshows/Webapp'
 import Recipe from '../components/Slideshows/Recipe'
 import Burger from '../components/Slideshows/Burger'
@@ -49,10 +48,22 @@ const Work = () => (
 
         <span id="build-span">
           <p class="built">Built with: </p>
-          <img src={reactlogo} class="logo" />
-          <img src={html} class="logo-sm" />
-          <img src={css} class="logo-sm" />
-          <img src={js} class="logo-sm" />
+          <div class="tooltip">
+            <img src={reactlogo} class="logo" />
+            <span class="tooltiptext">React.js</span>
+          </div>
+          <div class="tooltip">
+            <img src={html} class="logo-sm" />
+            <span class="tooltiptext">HTML5</span>
+          </div>
+          <div class="tooltip">
+            <img src={css} class="logo-sm" />
+            <span class="tooltiptext">CSS3</span>
+          </div>
+          <div class="tooltip">
+            <img src={js} class="logo-sm" />
+            <span class="tooltiptext">JavaScript</span>
+          </div>
         </span>
         <div>
           <Recipe />
@@ -64,15 +75,31 @@ const Work = () => (
         <p id="p1">
           This app has the functionality to create your own burger with dynamic
           prices. You can then order it. Complete with authentication and user
-          profiles.
+          profiles. Integrated with a Firebase database to store customers and
+          orders placed.
         </p>
         <span id="build-span">
           <p class="built">Built with: </p>
-          <img src={reactlogo} class="logo" />
-          <img src={html} class="logo-sm" />
-          <img src={css} class="logo-sm" />
-          <img src={js} class="logo-sm" />
-          <img src={firebase} class="logo-sm" />
+          <div class="tooltip">
+            <img src={reactlogo} class="logo" />
+            <span class="tooltiptext">React.js</span>
+          </div>
+          <div class="tooltip">
+            <img src={html} class="logo-sm" />
+            <span class="tooltiptext">HTML5</span>
+          </div>
+          <div class="tooltip">
+            <img src={css} class="logo-sm" />
+            <span class="tooltiptext">CSS3</span>
+          </div>
+          <div class="tooltip">
+            <img src={js} class="logo-sm" />
+            <span class="tooltiptext">JavaScript</span>
+          </div>
+          <div class="tooltip">
+            <img src={firebase} class="logo-sm" />
+            <span class="tooltiptext">Firebase</span>
+          </div>
         </span>
 
         <div>
@@ -94,14 +121,38 @@ const Work = () => (
         </p>
         <span id="build-span">
           <p class="built">Built with: </p>
-          <img src={html} class="logo-sm" />
-          <img src={css} class="logo-sm" />
-          <img src={js} class="logo-sm" />
-          <img src={php} class="logo-vert" />
-          <img src={mysql} class="logo-vert" />
-          <img src={ajax} class="logo-bg" />
-          <img src={jquery} class="logo" />
-          <img src={bootstrap} class="logo" />
+          <div class="tooltip">
+            <img src={html} class="logo-sm" />
+            <span class="tooltiptext">React.js</span>
+          </div>
+          <div class="tooltip">
+            <img src={css} class="logo-sm" />
+            <span class="tooltiptext">CSS3</span>
+          </div>
+          <div class="tooltip">
+            <img src={js} class="logo-sm" />
+            <span class="tooltiptext">JavaScript</span>
+          </div>
+          <div class="tooltip">
+            <img src={php} class="logo-vert" />
+            <span class="tooltiptext">PHP</span>
+          </div>
+          <div class="tooltip">
+            <img src={mysql} class="logo-vert" />
+            <span class="tooltiptext">MySQL</span>
+          </div>
+          <div class="tooltip">
+            <img src={ajax} class="logo-bg" />
+            <span class="tooltiptext">Ajax</span>
+          </div>
+          <div class="tooltip">
+            <img src={jquery} class="logo" />
+            <span class="tooltiptext">jQuery</span>
+          </div>
+          <div class="tooltip">
+            <img src={bootstrap} class="logo" />
+            <span class="tooltiptext">Bootstrap</span>
+          </div>
         </span>
         <div class="slider">
           <Webapp />
@@ -116,10 +167,22 @@ const Work = () => (
         </p>
         <span id="build-span">
           <p class="built">Built with: </p>
-          <img src={html} class="logo-sm" />
-          <img src={css} class="logo-sm" />
-          <img src={wordpress} class="logo" />
-          <img src={gatsby} class="logo" />
+          <div class="tooltip">
+            <img src={html} class="logo-sm" />
+            <span class="tooltiptext">HTML5</span>
+          </div>
+          <div class="tooltip">
+            <img src={css} class="logo-sm" />
+            <span class="tooltiptext">CSS3</span>
+          </div>
+          <div class="tooltip">
+            <img src={wordpress} class="logo" />
+            <span class="tooltiptext">WordPress</span>
+          </div>
+          <div class="tooltip">
+            <img src={gatsby} class="logo" />
+            <span class="tooltiptext">Gatsby.js</span>
+          </div>
         </span>
         <div class="clear">
           <ul>
@@ -145,11 +208,26 @@ const Work = () => (
       </p>
       <span id="build-span">
         <p class="built">Built with: </p>
-        <img src={python} class="logo" />
-        <img src={django} class="logo-sm" />
-        <img src={html} class="logo-sm" />
-        <img src={css} class="logo-sm" />
-        <img src={jquery} class="logo" />
+        <div class="tooltip">
+          <img src={python} class="logo" />
+          <span class="tooltiptext">Python</span>
+        </div>
+        <div class="tooltip">
+          <img src={django} class="logo-sm" />
+          <span class="tooltiptext">Django</span>
+        </div>
+        <div class="tooltip">
+          <img src={html} class="logo-sm" />
+          <span class="tooltiptext">HTML5</span>
+        </div>
+        <div class="tooltip">
+          <img src={css} class="logo-sm" />
+          <span class="tooltiptext">CSS3</span>
+        </div>
+        <div class="tooltip">
+          <img src={jquery} class="logo" />
+          <span class="tooltiptext">jQuery</span>
+        </div>
       </span>
       <div class="slider">
         <ToDo />
@@ -164,8 +242,14 @@ const Work = () => (
       </p>
       <span id="build-span">
         <p class="built">Built with: </p>
-        <img src={python} class="logo-bg" />
-        <img src={tkinter} class="logo-bg" />
+        <div class="tooltip">
+          <img src={python} class="logo" />
+          <span class="tooltiptext">Python</span>
+        </div>
+        <div class="tooltip">
+          <img src={tkinter} class="logo-bg" />
+          <span class="tooltiptext">TKinter</span>
+        </div>
       </span>
       <div class="slider">
         <Reaction />
