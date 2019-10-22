@@ -112,7 +112,7 @@ const Work = () => (
       <h2>Websites</h2>
       <div>
         <p id="p1">
-          oajaljafladaflk dksddk sdpsdipi sdspsdpo sdsdpsdsdifs psddij sdjk
+          Basic freelance websites built with WordPress or Gatsby.js
         </p>
         <span id="build-span">
           <p class="built">Built with: </p>
@@ -128,7 +128,6 @@ const Work = () => (
                 drjaninebrandt.com
               </a>
             </li>
-            <li>oasdoj</li>
           </ul>
         </div>
 
@@ -141,7 +140,8 @@ const Work = () => (
       <h2>Python</h2>
       <h3>To Do List</h3>
       <p id="p1">
-        oajaljafladaflk dksddk sdpsdipi sdspsdpo sdsdpsdsdifs psddij sdjk
+        Built with Python and the Django framework, this app allows you to add
+        and delete tasks, with some JQuery functionality.
       </p>
       <span id="build-span">
         <p class="built">Built with: </p>
@@ -158,7 +158,9 @@ const Work = () => (
 
       <h3>Reaction Time Test</h3>
       <p id="p1">
-        oajaljafladaflk dksddk sdpsdipi sdspsdpo sdsdpsdsdifs psddij sdjk
+        This app uses Python's TKinter graphical UI to randomise a timer and
+        tracks how long it takes for you to hit the "go" button after the
+        prompt.
       </p>
       <span id="build-span">
         <p class="built">Built with: </p>
