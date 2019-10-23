@@ -58,6 +58,13 @@ class Main extends React.Component {
             project interests or challenges me, that's what I feel most excited
             about and when I do my best work.
           </p>
+          <p>
+            My ambition is to create great user experiences with exciting
+            functionality, whether its websites, applications or even in newer
+            mediums like VR or AR. That is why I've focused on being as well
+            rounded as possible across a broad set of frameworks and languages:
+            to ensure interoperability and the understanding to build on.
+          </p>
           {close}
         </article>
 
@@ -73,12 +80,13 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            I am well experienced in SQL scripting, having worked on a various
-            intricate projects. Additionally, I have experience building a
-            number of web apps, and enjoy continuous learning and
+            I have a lot of experience in SQL scripting, having worked on
+            various intricate databases. Additionally, I have experience
+            building a number of web apps, and enjoy continuous learning and
             experimentation through side projects. This allows me to constantly
             learn new languages and challenge myself.
           </p>
+
           <p>
             You can see a more detailed description of the projects I've worked
             on <a href="work">here</a>.
@@ -110,7 +118,9 @@ class Main extends React.Component {
             working as a React developer primarily doing testing, bug-fixes and
             implementing some new functionality.
           </p>
-
+          <p>
+            Find some of my work <a href="work">here</a>.
+          </p>
           {close}
         </article>
 
