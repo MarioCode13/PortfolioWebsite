@@ -45,6 +45,7 @@ class Main extends React.Component {
               <li>PHP</li>
               <li>Python</li>
               <li>React</li>
+              <li>SQL</li>
             </ul>
             but I'm always willing to learn new technologies. Feel free to check
             out some of my <a href="work">work</a>.
