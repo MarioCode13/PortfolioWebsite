@@ -73,10 +73,11 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            I have a lot of SQL scripting experience, have worked on a number of
-            websites, have built a few webapps and I often do little
-            experimental side projects to keep me up to date, learn new
-            languages and to challenge myself.
+            I am well experienced in SQL scripting, having worked on a various
+            intricate projects. Additionally, I have experience building a
+            number of web apps, and enjoy continuous learning and
+            experimentation through side projects. This allows me to constantly
+            learn new languages and challenge myself.
           </p>
           <p>
             You can see a more detailed description of the projects I've worked
