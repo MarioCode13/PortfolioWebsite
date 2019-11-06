@@ -190,6 +190,14 @@ const Work = () => (
               <a href="https://drjaninebrandt.com/" class="link">
                 drjaninebrandt.com
               </a>
+              <p> (esports and health blog) </p>
+            </li>
+
+            <li>
+              <a href="https://dollaretta.com/" class="link">
+                dollaretta.com
+              </a>
+              <p>(comic book ecommerce site)</p>
             </li>
           </ul>
         </div>
