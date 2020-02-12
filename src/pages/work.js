@@ -199,6 +199,13 @@ const Work = () => (
               </a>
               <p>(comic book ecommerce site)</p>
             </li>
+
+            <li>
+              <a href="https://ozramedia.co.za/" class="link">
+                ozramedia.co.za
+              </a>
+              <p> (business offerings and info site) </p>
+            </li>
           </ul>
         </div>
 
