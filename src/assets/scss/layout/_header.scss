@@ -290,6 +290,16 @@
 #home-button:hover {
   color: white;
 }
+#demo-wrap {
+  clear: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#demo-button {
+  display: flex;
+  justify-content: center;
+}
 
 #slider-image {
   width: 44rem;
@@ -417,6 +427,7 @@
 
 .clear {
   clear: both;
+  column-count: 3;
 }
 .link {
   color: rgb(100, 67, 247);

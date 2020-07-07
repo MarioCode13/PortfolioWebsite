@@ -10,6 +10,7 @@ import Burger from '../components/Slideshows/Burger'
 import ToDo from '../components/Slideshows/ToDo'
 import Websites from '../components/Slideshows/Websites'
 import Reaction from '../components/Slideshows/Reaction'
+import Hangman from '../components/Slideshows/Hangman'
 
 import reactlogo from '../images/logos/react.png'
 import html from '../images/logos/html.png'
@@ -65,6 +66,16 @@ const Work = () => (
             <span class="tooltiptext">JavaScript</span>
           </div>
         </span>
+
+        <div id="demo-wrap">
+          <a
+            href="https://app.netlify.com/sites/eloquent-nobel-425cb9"
+            target="blank"
+          >
+            <button id="demo-button">Demo</button>
+          </a>
+        </div>
+
         <div>
           <Recipe />
         </div>
@@ -106,6 +117,42 @@ const Work = () => (
           <Burger />
         </div>
 
+        <br />
+      </div>
+
+      <h2>JavaScript</h2>
+      <div>
+        <h3>Hangman Game</h3>
+        <p id="p1">
+          A simple game of hangman, connected to an API for random single-word
+          generation.
+        </p>
+        <span id="build-span">
+          <p class="built">Built with: </p>
+          <div class="tooltip">
+            <img src={html} class="logo-sm" />
+            <span class="tooltiptext">React.js</span>
+          </div>
+          <div class="tooltip">
+            <img src={css} class="logo-sm" />
+            <span class="tooltiptext">CSS3</span>
+          </div>
+          <div class="tooltip">
+            <img src={js} class="logo-sm" />
+            <span class="tooltiptext">JavaScript</span>
+          </div>
+        </span>
+        <div id="demo-wrap">
+          <a
+            href="https://nostalgic-perlman-e77f49.netlify.app/"
+            target="blank"
+          >
+            <button id="demo-button">Demo</button>
+          </a>
+        </div>
+        <div class="slider">
+          <Hangman />
+        </div>
         <br />
       </div>
 
@@ -187,6 +234,12 @@ const Work = () => (
         <div class="clear">
           <ul>
             <li>
+              <a href="https://ozramedia.co.za/" class="link">
+                ozramedia.co.za
+              </a>
+              <p> (business offerings and info site) </p>
+            </li>
+            <li>
               <a href="https://drjaninebrandt.com/" class="link">
                 drjaninebrandt.com
               </a>
@@ -199,12 +252,16 @@ const Work = () => (
               </a>
               <p>(comic book ecommerce site)</p>
             </li>
+          </ul>
+        </div>
 
+        <div>
+          <ul>
             <li>
-              <a href="https://ozramedia.co.za/" class="link">
-                ozramedia.co.za
+              <a href="https://flourishnetwork.org.za/" class="link">
+                flourishnetwork.org.za
               </a>
-              <p> (business offerings and info site) </p>
+              <p> (mother and baby support) </p>
             </li>
           </ul>
         </div>
