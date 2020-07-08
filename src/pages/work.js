@@ -68,10 +68,7 @@ const Work = () => (
         </span>
 
         <div id="demo-wrap">
-          <a
-            href="https://app.netlify.com/sites/eloquent-nobel-425cb9"
-            target="blank"
-          >
+          <a href="https://eloquent-nobel-425cb9.netlify.app/" target="blank">
             <button id="demo-button">Demo</button>
           </a>
         </div>
