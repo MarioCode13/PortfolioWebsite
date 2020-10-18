@@ -231,18 +231,19 @@ const Work = () => (
         <div class="clear">
           <ul>
             <li>
-              <a href="https://ozramedia.co.za/" class="link">
-                ozramedia.co.za
+              <a href="https://mzansihospitality.co.za/" class="link">
+                mzansihospitality.co.za
               </a>
-              <p> (business offerings and info site) </p>
+              <p> Events and hospitality services</p>
             </li>
+          </ul>
+          <ul>
             <li>
-              <a href="https://drjaninebrandt.com/" class="link">
-                drjaninebrandt.com
+              <a href="https://earthchild.africa/" class="link">
+                earthchild.africa
               </a>
-              <p> (esports and health blog) </p>
+              <p>Life coaching/ spirituality blog and podcast</p>
             </li>
-
             <li>
               <a href="https://dollaretta.com/" class="link">
                 dollaretta.com
@@ -252,15 +253,27 @@ const Work = () => (
           </ul>
         </div>
 
-        <div>
+        <div class="clear">
           <ul>
+            <li>
+              <a href="https://ozramedia.co.za/" class="link">
+                ozramedia.co.za
+              </a>
+              <p> (business offerings and info site) </p>
+            </li>
             <li>
               <a href="https://flourishnetwork.org.za/" class="link">
                 flourishnetwork.org.za
               </a>
               <p> (mother and baby support) </p>
             </li>
-          </ul>
+            <li>
+              <a href="https://drjaninebrandt.com/" class="link">
+                drjaninebrandt.com
+              </a>
+              <p> (esports and health blog) </p>
+            </li>
+          </ul>         
         </div>
 
         <div class="slider">
