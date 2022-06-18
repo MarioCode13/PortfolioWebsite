@@ -278,6 +278,11 @@
     }
   }
 }
+#build-span {
+  display: flex;
+  margin-left: 10px;
+  max-width: 350px;
+}
 
 // ************** Desktop **********************
 #home-button {
@@ -396,6 +401,7 @@
   float: left;
   margin-top: 15px;
   margin-right: 15px;
+  white-space: nowrap;
 }
 .logo {
   width: 60px;
@@ -614,11 +620,6 @@
     margin-right: auto;
   }
 
-  #build-span {
-    display: inline-block;
-    margin-left: 10px;
-    max-width: 350px;
-  }
   .built {
     float: left;
 
