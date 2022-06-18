@@ -13,6 +13,8 @@ import ToDo from '../components/Slideshows/ToDo'
 import Websites from '../components/Slideshows/Websites'
 import Reaction from '../components/Slideshows/Reaction'
 import Hangman from '../components/Slideshows/Hangman'
+import Metsi from '../components/Slideshows/Metsi'
+import ING from '../components/Slideshows/ING'
 
 import reactlogo from '../images/logos/react.png'
 import html from '../images/logos/html.png'
@@ -31,11 +33,14 @@ import gatsby from '../images/logos/gatsby.png'
 import jquery from '../images/logos/jquery.png'
 import bootstrap from '../images/logos/bootstrap.png'
 import umbraco from '../images/logos/umbraco.png'
+import threejs from '../images/logos/3js.png'
+import gsap from '../images/logos/gsap.png'
+import antd from '../images/logos/antd.png'
 import typescript from '../images/logos/typescript.png'
 
 const Work = () => (
   <Layout>
-    <div style={{ maxWidth: '1300px' }}>
+    <div className="work-wrapper">
       <div>
         <Link to="/">
           <div id="home-button" className="fa fa-home"></div>
@@ -47,6 +52,63 @@ const Work = () => (
         <h2>React.js</h2>
 
         <div>
+          <h3>Metsi</h3>
+          <p id="p1">
+            A static site built with Gatsby for a cloud computing company,
+            showcasing their services and blogs. A 3D journey was implemented
+            with Three.js to show their application modernisation process. A
+            unique feel was required so many custom components were needed
+            opposed to using component libraries. Gsap was also used to
+            implement some animations to add some flair.
+          </p>
+
+          <div id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactlogo} class="logo" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={gatsby} class="logo-sm" />
+              <span class="tooltiptext">Gatsby</span>
+            </div>
+            <div class="tooltip">
+              <img src={html} class="logo-sm" />
+              <span class="tooltiptext">HTML5</span>
+            </div>
+            <div class="tooltip">
+              <img src={css} class="logo-sm" />
+              <span class="tooltiptext">CSS3</span>
+            </div>
+            <div class="tooltip">
+              <img src={js} class="logo-sm" />
+              <span class="tooltiptext">JavaScript</span>
+            </div>
+            <div class="tooltip">
+              <img src={gsap} class="logo-sm" />
+              <span class="tooltiptext">Gsap</span>
+            </div>
+            <div class="tooltip">
+              <img
+                src={threejs}
+                class="logo-sm"
+                style={{ filter: 'invert(100%)' }}
+              />
+              <span class="tooltiptext">Three JS</span>
+            </div>
+          </div>
+
+          <div id="demo-wrap">
+            <a href="https://metsi.co/" target="blank">
+              <button id="demo-button">Demo</button>
+            </a>
+          </div>
+
+          <div>
+            <Metsi />
+          </div>
+
+          <br />
           <h3>Multichoice African Movie Showcase</h3>
           <p id="p1">
             A project for Multichoice to showcase African movies with filters
@@ -95,6 +157,42 @@ const Work = () => (
             <Movie />
           </div>
 
+          <br />
+
+          <h3>Banking Utility App</h3>
+          <p id="p1">
+            A project to create requests for currency exchanges and for the bank
+            to track them and generate pdf reports. Integrated with login
+            systems and localisation, allowing language to be changed.
+          </p>
+
+          <div id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactlogo} class="logo" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={typescript} class="logo-sm" />
+              <span class="tooltiptext">Typescript</span>
+            </div>
+            <div class="tooltip">
+              <img src={html} class="logo-sm" />
+              <span class="tooltiptext">HTML5</span>
+            </div>
+            <div class="tooltip">
+              <img src={css} class="logo-sm" />
+              <span class="tooltiptext">CSS3</span>
+            </div>
+
+            <div class="tooltip">
+              <img src={antd} class="logo-sm" />
+              <span class="tooltiptext">Ant Design</span>
+            </div>
+          </div>
+          <div>
+            <ING />
+          </div>
           <br />
 
           <h3>Dashboard App</h3>
@@ -334,10 +432,13 @@ const Work = () => (
           <div class="clear">
             <ul>
               <li>
-                <a href="https://mzansihospitality.co.za/" class="link">
-                  mzansihospitality.co.za
+                <a
+                  href="https://connectedconservation.foundation/"
+                  class="link"
+                >
+                  connectedconservation.foundation
                 </a>
-                <p> Events and hospitality services</p>
+                <p>wildlife preservation</p>
               </li>
             </ul>
             <ul>
@@ -345,13 +446,13 @@ const Work = () => (
                 <a href="https://earthchild.africa/" class="link">
                   earthchild.africa
                 </a>
-                <p>Life coaching/ spirituality blog and podcast</p>
+                <p>life coaching/ spirituality blog and podcast</p>
               </li>
               <li>
                 <a href="https://dollaretta.com/" class="link">
                   dollaretta.com
                 </a>
-                <p>(comic book ecommerce site)</p>
+                <p>comic book ecommerce site</p>
               </li>
             </ul>
           </div>
@@ -362,19 +463,31 @@ const Work = () => (
                 <a href="https://ozramedia.co.za/" class="link">
                   ozramedia.co.za
                 </a>
-                <p> (business offerings and info site) </p>
+                <p>business offerings and info site </p>
               </li>
               <li>
                 <a href="https://flourishnetwork.org.za/" class="link">
                   flourishnetwork.org.za
                 </a>
-                <p> (mother and baby support) </p>
+                <p>mother and baby support</p>
               </li>
               <li>
                 <a href="https://drjaninebrandt.com/" class="link">
                   drjaninebrandt.com
                 </a>
-                <p> (esports and health blog) </p>
+                <p>esports and health blog</p>
+              </li>
+            </ul>
+          </div>
+          <div class="clear">
+            <ul>
+              <li>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  <a href="https://mzansihospitality.co.za/" class="link">
+                    mzansihospitality.co.za
+                  </a>
+                  <p>events and hospitality services</p>
+                </div>
               </li>
             </ul>
           </div>
