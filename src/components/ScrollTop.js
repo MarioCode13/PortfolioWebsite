@@ -15,10 +15,15 @@ const ScrollTop = () => {
   }
 
   const scrollTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    if (typeof window !== 'undefined') {
+      // browser code
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
   }
-
-  window.addEventListener('scroll', checkScrollTop)
+  if (typeof window !== 'undefined') {
+    // browser code
+    window.addEventListener('scroll', checkScrollTop)
+  }
 
   return (
     <FaChevronCircleUp
