@@ -5,7 +5,13 @@ import PropTypes from 'prop-types'
 const Header = (props) => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <Link to="/work" className="logo">
+      {/* <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      className="logo"
+      target="_blank"
+    > */}
       <span className="icon fas fa-laptop"></span>
+      {/* </a> */}
     </Link>
     <div className="content">
       <div className="inner">

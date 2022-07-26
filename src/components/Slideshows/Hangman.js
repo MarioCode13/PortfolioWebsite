@@ -34,8 +34,7 @@ function Hangman() {
   const handlePrevious = () =>
     index === 0 ? setIndex(length) : setIndex(index - 1)
   const { node } = allFile.edges[index]
-  console.log(index)
-  console.log(length)
+
   return (
     <div>
       <div id="burger-image" className="image main">
