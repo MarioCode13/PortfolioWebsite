@@ -281,7 +281,33 @@
 #build-span {
   display: flex;
   margin-left: 10px;
-  max-width: 350px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  font-size: 65px;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
 }
 
 // ************** Desktop **********************
@@ -399,23 +425,30 @@
 
 .built {
   float: left;
-  margin-top: 15px;
-  margin-right: 15px;
+  margin: 0 20px 10px 0;
   white-space: nowrap;
 }
-.logo {
-  width: 60px;
-  margin: 0px 5px;
+.logo-xs {
+  width: 40px;
+  margin: 0px 10px;
 }
-
 .logo-sm {
-  width: 70px;
-  margin: 0px 5px;
+  width: 50px;
+  margin: 0px 10px;
 }
 
-.logo-bg {
-  width: 50px;
-  margin: 0px 5px;
+.logo-md {
+  width: 60px;
+  margin: 0px 10px;
+}
+
+.logo-lg {
+  width: 70px;
+  margin: 0px 10px;
+}
+.logo-xl {
+  width: 80px;
+  margin: 0px 10px;
 }
 
 .logo-vert {
@@ -425,8 +458,11 @@
 }
 
 .logo:hover,
+.logo-xs:hover,
 .logo-sm:hover,
-.logo-bg:hover,
+.logo-md:hover,
+.logo-lg:hover,
+.logo-xl:hover,
 .logo-vert:hover {
   opacity: 0.5;
 }
@@ -533,14 +569,27 @@
     width: 45px;
     margin: 0px 5px;
   }
-  .logo-bg {
-    width: 25px;
-    margin: 0px 5px;
+  .logo-md {
+    width: 50px;
+    margin: 0px 10px;
   }
+
+  .logo-lg {
+    width: 55px;
+    margin: 0px 10px;
+  }
+  .logo-xl {
+    width: 65px;
+    margin: 0px 10px;
+  }
+
   .logo-vert {
     padding: 10px 0;
     width: 45px;
     margin: 0px 5px;
+  }
+  .scrollTop {
+    font-size: 45px;
   }
 }
 
@@ -631,16 +680,29 @@
     margin: 0px 5px;
   }
   .logo-sm {
-    width: 30px;
+    width: 35px;
     margin: 0px 5px;
   }
-  .logo-bg {
-    width: 15px;
-    margin: 0px 5px;
+  .logo-md {
+    width: 37px;
+    margin: 0px 10px;
   }
+
+  .logo-lg {
+    width: 40px;
+    margin: 0px 10px;
+  }
+  .logo-xl {
+    width: 50px;
+    margin: 0px 10px;
+  }
+
   .logo-vert {
     padding: 10px 0;
     width: 30px;
     margin: 0px 5px;
+  }
+  .scrollTop {
+    font-size: 35px;
   }
 }

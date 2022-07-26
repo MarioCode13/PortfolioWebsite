@@ -15,6 +15,8 @@ import Reaction from '../components/Slideshows/Reaction'
 import Hangman from '../components/Slideshows/Hangman'
 import Metsi from '../components/Slideshows/Metsi'
 import ING from '../components/Slideshows/ING'
+import Ecommerce from '../components/Slideshows/Ecommerce'
+import Insta from '../components/Slideshows/Insta'
 
 import reactlogo from '../images/logos/react.png'
 import html from '../images/logos/html.png'
@@ -37,6 +39,19 @@ import threejs from '../images/logos/3js.png'
 import gsap from '../images/logos/gsap.png'
 import antd from '../images/logos/antd.png'
 import typescript from '../images/logos/typescript.png'
+import sass from '../images/logos/sass.png'
+import redux from '../images/logos/redux.png'
+import sanity from '../images/logos/sanity.png'
+import stripe from '../images/logos/stripe.png'
+import next from '../images/logos/next.png'
+import syncfusion from '../images/logos/syncfusion.webp'
+import java from '../images/logos/java.png'
+import formik from '../images/logos/formik.png'
+import mongo from '../images/logos/mongo.png'
+import express from '../images/logos/express.png'
+import node from '../images/logos/node.png'
+import mui from '../images/logos/mui.png'
+import ScrollTop from '../components/ScrollTop'
 
 const Work = () => (
   <Layout>
@@ -65,23 +80,19 @@ const Work = () => (
           <div id="build-span">
             <p class="built">Built with: </p>
             <div class="tooltip">
-              <img src={reactlogo} class="logo" />
+              <img src={reactlogo} class="logo-sm" />
               <span class="tooltiptext">React.js</span>
             </div>
             <div class="tooltip">
-              <img src={gatsby} class="logo-sm" />
+              <img src={gatsby} class="logo-sm" style={{ margin: '0px 8px' }} />
               <span class="tooltiptext">Gatsby</span>
             </div>
             <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
+              <img src={sass} class="logo-md" />
+              <span class="tooltiptext">Sass</span>
             </div>
             <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
-            </div>
-            <div class="tooltip">
-              <img src={js} class="logo-sm" />
+              <img src={js} class="logo-md" />
               <span class="tooltiptext">JavaScript</span>
             </div>
             <div class="tooltip">
@@ -119,19 +130,19 @@ const Work = () => (
           <div id="build-span">
             <p class="built">Built with: </p>
             <div class="tooltip">
-              <img src={reactlogo} class="logo" />
+              <img src={reactlogo} class="logo-sm" />
               <span class="tooltiptext">React.js</span>
             </div>
             <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
+              <img src={html} class="logo-md" />
+              <span class="tooltiptext">HTML</span>
             </div>
             <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
+              <img src={css} class="logo-md" />
+              <span class="tooltiptext">CSS</span>
             </div>
             <div class="tooltip">
-              <img src={js} class="logo-sm" />
+              <img src={js} class="logo-md" />
               <span class="tooltiptext">JavaScript</span>
             </div>
             <div class="tooltip">
@@ -169,20 +180,24 @@ const Work = () => (
           <div id="build-span">
             <p class="built">Built with: </p>
             <div class="tooltip">
-              <img src={reactlogo} class="logo" />
+              <img src={reactlogo} class="logo-sm" />
               <span class="tooltiptext">React.js</span>
             </div>
             <div class="tooltip">
-              <img src={typescript} class="logo-sm" />
+              <img
+                src={typescript}
+                class="logo-sm"
+                style={{ margin: '0px 8px' }}
+              />
               <span class="tooltiptext">Typescript</span>
             </div>
             <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
+              <img src={redux} class="logo-md" style={{ margin: '0px 8px' }} />
+              <span class="tooltiptext">Redux</span>
             </div>
             <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
+              <img src={css} class="logo-md" />
+              <span class="tooltiptext">CSS</span>
             </div>
 
             <div class="tooltip">
@@ -195,35 +210,124 @@ const Work = () => (
           </div>
           <br />
 
+          <h3>Ecommerce Record Store</h3>
+          <p id="p1">
+            An ecommerce site built with Next js, integrated with Stripe for
+            payments and using Sanity studio to edit store products.
+          </p>
+
+          <span id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactlogo} class="logo-sm" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={next} class="logo-md" />
+              <span class="tooltiptext">Next.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={css} class="logo-md" />
+              <span class="tooltiptext">CSS</span>
+            </div>
+            <div class="tooltip">
+              <img src={sanity} class="logo-sm" />
+              <span class="tooltiptext">Sanity</span>
+            </div>
+            <div class="tooltip">
+              <img src={stripe} class="logo-sm" />
+              <span class="tooltiptext">Stripe</span>
+            </div>
+          </span>
+
+          <div id="demo-wrap">
+            <a href="https://lustrous-malabi-1f3556.netlify.app" target="blank">
+              <button id="demo-button">Demo</button>
+            </a>
+          </div>
+
+          <div>
+            <Ecommerce />
+          </div>
+
+          <br />
+
+          <h3>Instagram Clone</h3>
+          <p id="p1">
+            An instagram-type clone where a user can log in, make posts and like
+            other users' posts integrated with Google authentication and a
+            MongoDB database for user and post storage.
+          </p>
+
+          <span id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactlogo} class="logo-sm" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={redux} class="logo-md" />
+              <span class="tooltiptext">Redux</span>
+            </div>
+            <div class="tooltip">
+              <img
+                src={express}
+                class="logo-xl"
+                style={{ filter: 'brightness(200%)' }}
+              />
+              <span class="tooltiptext">Express</span>
+            </div>
+            <div class="tooltip">
+              <img
+                src={node}
+                class="logo-xl"
+                style={{ filter: 'brightness(130%)' }}
+              />
+              <span class="tooltiptext">Node</span>
+            </div>
+            <div class="tooltip">
+              <img src={mongo} class="logo-md" />
+              <span class="tooltiptext">Mongo DB</span>
+            </div>
+            <div class="tooltip">
+              <img src={mui} class="logo-md" />
+              <span class="tooltiptext">Material UI</span>
+            </div>
+          </span>
+
+          <div id="demo-wrap">
+            <a href="https://lustrous-malabi-1f3556.netlify.app" target="blank">
+              <button id="demo-button">Demo</button>
+            </a>
+          </div>
+
+          <div>
+            <Insta />
+          </div>
+
+          <br />
+
           <h3>Dashboard App</h3>
           <p id="p1">
             Experimenting with typical dashboard elements and creating multiple
             smaller apps and views within the dashboard. I'm using Syncfusion to
-            assist with graphs, calendar and Kanban board components an styling
+            assist with graphs, calendar and Kanban board components and styling
             is done with Tailwind CSS.
           </p>
 
           <span id="build-span">
             <p class="built">Built with: </p>
             <div class="tooltip">
-              <img src={reactlogo} class="logo" />
+              <img src={reactlogo} class="logo-sm" />
               <span class="tooltiptext">React.js</span>
-            </div>
-            <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
-            </div>
-            <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
-            </div>
-            <div class="tooltip">
-              <img src={js} class="logo-sm" />
-              <span class="tooltiptext">JavaScript</span>
             </div>
             <div class="tooltip">
               <img src={tailwind} class="logo-sm" />
               <span class="tooltiptext">Tailwind</span>
+            </div>
+            <div class="tooltip">
+              <img src={syncfusion} class="logo-md" />
+              <span class="tooltiptext">Syncfusion</span>
             </div>
           </span>
 
@@ -251,19 +355,15 @@ const Work = () => (
           <span id="build-span">
             <p class="built">Built with: </p>
             <div class="tooltip">
-              <img src={reactlogo} class="logo" />
+              <img src={reactlogo} class="logo-sm" />
               <span class="tooltiptext">React.js</span>
             </div>
             <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
+              <img src={css} class="logo-md" />
+              <span class="tooltiptext">CSS</span>
             </div>
             <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
-            </div>
-            <div class="tooltip">
-              <img src={js} class="logo-sm" />
+              <img src={js} class="logo-md" />
               <span class="tooltiptext">JavaScript</span>
             </div>
           </span>
@@ -290,21 +390,18 @@ const Work = () => (
           <span id="build-span">
             <p class="built">Built with: </p>
             <div class="tooltip">
-              <img src={reactlogo} class="logo" />
+              <img src={reactlogo} class="logo-sm" />
               <span class="tooltiptext">React.js</span>
             </div>
             <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
+              <img src={redux} class="logo-sm" />
+              <span class="tooltiptext">Redux</span>
             </div>
             <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
+              <img src={sass} class="logo-sm" />
+              <span class="tooltiptext">Sass</span>
             </div>
-            <div class="tooltip">
-              <img src={js} class="logo-sm" />
-              <span class="tooltiptext">JavaScript</span>
-            </div>
+
             <div class="tooltip">
               <img src={firebase} class="logo-sm" />
               <span class="tooltiptext">Firebase</span>
@@ -368,11 +465,11 @@ const Work = () => (
             <p class="built">Built with: </p>
             <div class="tooltip">
               <img src={html} class="logo-sm" />
-              <span class="tooltiptext">React.js</span>
+              <span class="tooltiptext">HTML</span>
             </div>
             <div class="tooltip">
               <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
+              <span class="tooltiptext">CSS</span>
             </div>
             <div class="tooltip">
               <img src={js} class="logo-sm" />
@@ -387,15 +484,15 @@ const Work = () => (
               <span class="tooltiptext">MySQL</span>
             </div>
             <div class="tooltip">
-              <img src={ajax} class="logo-bg" />
+              <img src={ajax} class="logo-xs" />
               <span class="tooltiptext">Ajax</span>
             </div>
             <div class="tooltip">
-              <img src={jquery} class="logo" />
+              <img src={jquery} class="logo-sm" />
               <span class="tooltiptext">jQuery</span>
             </div>
             <div class="tooltip">
-              <img src={bootstrap} class="logo" />
+              <img src={bootstrap} class="logo-sm" />
               <span class="tooltiptext">Bootstrap</span>
             </div>
           </span>
@@ -414,18 +511,18 @@ const Work = () => (
             <p class="built">Built with: </p>
             <div class="tooltip">
               <img src={html} class="logo-sm" />
-              <span class="tooltiptext">HTML5</span>
+              <span class="tooltiptext">HTML</span>
             </div>
             <div class="tooltip">
               <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
+              <span class="tooltiptext">CSS</span>
             </div>
             <div class="tooltip">
-              <img src={wordpress} class="logo" />
+              <img src={wordpress} class="logo-sm" />
               <span class="tooltiptext">WordPress</span>
             </div>
             <div class="tooltip">
-              <img src={gatsby} class="logo" />
+              <img src={gatsby} class="logo-sm" />
               <span class="tooltiptext">Gatsby.js</span>
             </div>
           </span>
@@ -497,65 +594,9 @@ const Work = () => (
           </div>
           <br />
         </div>
-
-        {/* <h2>Python</h2>
-        <h3>To Do List</h3>
-        <p id="p1">
-          Built with Python and the Django framework, this app allows you to add
-          and delete tasks, with some JQuery functionality.
-        </p>
-        <span id="build-span">
-          <p class="built">Built with: </p>
-          <div class="tooltip">
-            <img src={python} class="logo" />
-            <span class="tooltiptext">Python</span>
-          </div>
-          <div class="tooltip">
-            <img src={django} class="logo-sm" />
-            <span class="tooltiptext">Django</span>
-          </div>
-          <div class="tooltip">
-            <img src={html} class="logo-sm" />
-            <span class="tooltiptext">HTML5</span>
-          </div>
-          <div class="tooltip">
-            <img src={css} class="logo-sm" />
-            <span class="tooltiptext">CSS3</span>
-          </div>
-          <div class="tooltip">
-            <img src={jquery} class="logo" />
-            <span class="tooltiptext">jQuery</span>
-          </div>
-        </span>
-        <div class="slider">
-          <ToDo />
-        </div>
-        <br />
-
-        <h3>Reaction Time Test</h3>
-        <p id="p1">
-          This app uses Python's TKinter graphical UI to randomise a timer and
-          tracks how long it takes for you to hit the "go" button after the
-          prompt.
-        </p>
-        <span id="build-span">
-          <p class="built">Built with: </p>
-          <div class="tooltip">
-            <img src={python} class="logo" />
-            <span class="tooltiptext">Python</span>
-          </div>
-          <div class="tooltip">
-            <img src={tkinter} class="logo-bg" />
-            <span class="tooltiptext">TKinter</span>
-          </div>
-        </span>
-        <div class="slider">
-          <Reaction />
-        </div>
-        <br />
-        <a href="#top" className="fa fa-chevron-circle-up" id="back-top" /> */}
       </div>
     </div>
+    <ScrollTop />
   </Layout>
 )
 export default Work
