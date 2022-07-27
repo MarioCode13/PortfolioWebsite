@@ -3,7 +3,7 @@ module.exports = {
     title: 'Mario Liebenberg',
     author: 'Mario Liebenberg',
     siteUrl: 'https://marioliebenberg.com',
-    siteImage: '/static/assets/bg.jpg',
+    siteImage: '/static/assets/bg2.jpg',
     description: 'Portfolio website of Mario Liebenberg',
   },
   plugins: [
