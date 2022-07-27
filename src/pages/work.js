@@ -296,7 +296,7 @@ const Work = () => (
           </span>
 
           <div id="demo-wrap">
-            <a href="https://lustrous-malabi-1f3556.netlify.app" target="blank">
+            <a href="https://sleepy-kalam-ec6829.netlify.app/" target="blank">
               <button id="demo-button">Demo</button>
             </a>
           </div>
