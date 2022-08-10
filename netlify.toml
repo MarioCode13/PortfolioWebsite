@@ -23,6 +23,7 @@
     X-XSS-Protection = "1; mode=block"
     Access-Control-Allow-Origin = '''
       https://donboulton.com,
+      https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600,
       https://graphql.fauna.com,
       https://graphql.fauna.com/graphql
       https://img.badgesize.io/, 
@@ -72,6 +73,7 @@
       https://www.google.com/recaptcha/api.js
       https://static.small.chat/messenger.js
       https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js
+      https://marioliebenberg.com/
     '''      
     Access-Control-Allow-Methods = '''
       POST, 
