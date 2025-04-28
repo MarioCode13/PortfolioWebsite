@@ -43,11 +43,18 @@ const Layout = ({ children, location }) => {
               {
                 httpEquiv: 'Content-Security-Policy',
                 content: `
-                  default-src 'self';
-                  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://static.small.chat/messenger.css https://github.com https://api.bitbucket.org https://secure.gravatar.com https://media-library.cloudinary.com https://identity.netlify.com https://res.cloudinary.com https://static.doubleclick.net https://widget.cloudinary.com https://www.youtube.com https://youtube.de https://twitter.com https://*.twimg.com;
-                  style-src-elem 'self' https://fonts.googleapis.com;
-                  font-src 'self' https://fonts.gstatic.com;
-                `,
+        default-src 'self';
+        script-src 'self' https://apis.google.com https://www.google-analytics.com;
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://static.small.chat/messenger.css https://github.com https://api.bitbucket.org https://secure.gravatar.com https://media-library.cloudinary.com https://identity.netlify.com https://res.cloudinary.com https://static.doubleclick.net https://widget.cloudinary.com https://www.youtube.com https://youtube.de https://twitter.com https://*.twimg.com;
+        style-src-elem 'self' https://fonts.googleapis.com;
+        font-src 'self' https://fonts.gstatic.com;
+        img-src 'self' https://media-library.cloudinary.com https://res.cloudinary.com https://static.doubleclick.net https://www.youtube.com https://youtube.de https://secure.gravatar.com;
+        connect-src 'self' https://www.google-analytics.com https://identity.netlify.com;
+        frame-src https://www.youtube.com https://www.google.com;
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      `,
               },
             ]}
           >

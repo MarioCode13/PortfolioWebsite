@@ -22,7 +22,7 @@ const Header = (props) => (
       </div>
     </div>
     <nav>
-      <ul>
+      <ul style={{ maxWidth: 645 }}>
         <li>
           <a
             href="javascript:;"
