@@ -14,9 +14,12 @@ import Websites from '../components/Slideshows/Websites'
 import Reaction from '../components/Slideshows/Reaction'
 import Hangman from '../components/Slideshows/Hangman'
 import Metsi from '../components/Slideshows/Metsi'
+import Housemac from '../components/Slideshows/Housemac'
 import ING from '../components/Slideshows/ING'
 import Ecommerce from '../components/Slideshows/Ecommerce'
 import Insta from '../components/Slideshows/Insta'
+import Avo from '../components/Slideshows/Avo'
+import Pirelli from '../components/Slideshows/Pirelli'
 
 import reactlogo from '../images/logos/react.png'
 import html from '../images/logos/html.png'
@@ -36,7 +39,13 @@ import jquery from '../images/logos/jquery.png'
 import bootstrap from '../images/logos/bootstrap.png'
 import umbraco from '../images/logos/umbraco.png'
 import threejs from '../images/logos/3js.png'
+import springboot from '../images/logos/springboot.svg'
+import postgres from '../images/logos/postgres.svg'
+import java from '../images/logos/java.png'
+import blender from '../images/logos/blender.png'
+import reactNative from '../images/logos/native.svg'
 import gsap from '../images/logos/gsap.png'
+import gql from '../images/logos/gql.png'
 import antd from '../images/logos/antd.png'
 import typescript from '../images/logos/typescript.png'
 import sass from '../images/logos/sass.png'
@@ -45,7 +54,6 @@ import sanity from '../images/logos/sanity.png'
 import stripe from '../images/logos/stripe.png'
 import next from '../images/logos/next.png'
 import syncfusion from '../images/logos/syncfusion.webp'
-import java from '../images/logos/java.png'
 import formik from '../images/logos/formik.png'
 import mongo from '../images/logos/mongo.png'
 import express from '../images/logos/express.png'
@@ -67,6 +75,233 @@ const Work = () => (
         <h2>React.js</h2>
 
         <div>
+          <h3>Housemac</h3>
+          <p id="p1">
+            A dynamic platform that lets users visualize and customize their
+            future homes by exploring architectural designs on plots of land.
+            Built using Blender and Three.js, the interactive 3D environment
+            allows for real-time layout configuration, bridging the gap between
+            architecture and home design. The project delivered a seamless,
+            engaging experience for users to bring their dream homes to life.
+          </p>
+
+          <div id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactlogo} class="logo-sm" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={typescript} class="logo-sm" />
+              <span class="tooltiptext">Typescript</span>
+            </div>
+            <div class="tooltip">
+              <img src={mui} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Material UI
+              </span>
+            </div>
+            <div class="tooltip">
+              <img
+                src={threejs}
+                class="logo-sm"
+                style={{ filter: 'invert(100%)' }}
+              />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                React 3 Fibre
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={blender} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Blender
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={gql} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                GraphQl
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={java} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Java
+              </span>
+            </div>
+
+            <div class="tooltip">
+              <img src={springboot} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Spring Boot
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={postgres} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Postgres
+              </span>
+            </div>
+          </div>
+
+          <div id="demo-wrap">
+            <a
+              href="https://public.housemac.ssquared.cloud/"
+              target="blank"
+              style={{ marginRight: 8 }}
+            >
+              <button id="demo-button">Demo</button>
+            </a>
+            <a
+              href="https://public.housemac.ssquared.cloud/configure?id=RGVzaWduOjQ"
+              target="blank"
+            >
+              <button id="demo-button">3D Demo</button>
+            </a>
+          </div>
+
+          <div>
+            <Housemac />
+          </div>
+
+          <br />
+
+          <h3>Avo Auto</h3>
+          <p id="p1">
+            A car sales platform seamlessly integrated with bank financing
+            options, enabling users to browse and purchase vehicles with
+            real-time financing calculations. The site streamlines the buying
+            process, offering an intuitive user interface for car selection,
+            financing approval, and payment. Built with a focus on user
+            experience, the platform provides a smooth, end-to-end solution,
+            allowing customers to make informed purchasing decisions while
+            easily managing their financing options.
+          </p>
+
+          <div id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactlogo} class="logo-sm" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+            <div class="tooltip">
+              <img src={typescript} class="logo-sm" />
+              <span class="tooltiptext">Typescript</span>
+            </div>
+            <div class="tooltip">
+              <img src={mui} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Material UI
+              </span>
+            </div>
+
+            <div class="tooltip">
+              <img src={gql} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                GraphQl
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={java} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Java
+              </span>
+            </div>
+
+            <div class="tooltip">
+              <img src={springboot} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Spring Boot
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={postgres} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Postgres
+              </span>
+            </div>
+          </div>
+
+          <div id="demo-wrap">
+            <a href="https://public.housemac.ssquared.cloud/" target="blank">
+              <button id="demo-button">Demo</button>
+            </a>
+          </div>
+
+          <div>
+            <Avo />
+          </div>
+
+          <br />
+
+          <h3>Pirelli Stock Tracker</h3>
+          <p id="p1">
+            A mobile application built with React Native for Pirelli employees
+            to track tire stock and pricing across different locations.
+            Available on both iOS and Android, the app allows staff to quickly
+            check real-time inventory and prices specific to their branch.
+            Designed for ease of use, it helps improve efficiency in stock
+            management, enabling employees to respond faster to customer needs
+            and optimize inventory workflows.
+          </p>
+
+          <div id="build-span">
+            <p class="built">Built with: </p>
+            <div class="tooltip">
+              <img src={reactNative} class="logo-sm" />
+              <span class="tooltiptext">React Native</span>
+            </div>
+            <div class="tooltip">
+              <img src={typescript} class="logo-sm" />
+              <span class="tooltiptext">Typescript</span>
+            </div>
+
+            <div class="tooltip">
+              <img src={gql} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                GraphQl
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={java} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Java
+              </span>
+            </div>
+
+            <div class="tooltip">
+              <img src={springboot} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Spring Boot
+              </span>
+            </div>
+            <div class="tooltip">
+              <img src={postgres} class="logo-sm" />
+              <span class="tooltiptext" style={{ width: '150px' }}>
+                Postgres
+              </span>
+            </div>
+          </div>
+
+          <div id="demo-wrap">
+            <a
+              href="https://public.housemac.ssquared.cloud/"
+              target="blank"
+              style={{ marginRight: 8 }}
+            >
+              <button id="demo-button">Play Store</button>
+            </a>
+            <a href="https://public.housemac.ssquared.cloud/" target="blank">
+              <button id="demo-button">iStore</button>
+            </a>
+          </div>
+
+          <div>
+            <Pirelli />
+          </div>
+
+          <br />
+
           <h3>Metsi</h3>
           <p id="p1">
             A static site built with Gatsby for a cloud computing company,
@@ -120,6 +355,7 @@ const Work = () => (
           </div>
 
           <br />
+
           <h3>Multichoice African Movie Showcase</h3>
           <p id="p1">
             A project for Multichoice to showcase African movies with filters
@@ -227,8 +463,8 @@ const Work = () => (
               <span class="tooltiptext">Next.js</span>
             </div>
             <div class="tooltip">
-              <img src={css} class="logo-md" />
-              <span class="tooltiptext">CSS</span>
+              <img src={tailwind} class="logo-md" />
+              <span class="tooltiptext">Tailwind</span>
             </div>
             <div class="tooltip">
               <img src={sanity} class="logo-sm" />
@@ -294,12 +530,6 @@ const Work = () => (
               <span class="tooltiptext">Material UI</span>
             </div>
           </span>
-
-          <div id="demo-wrap">
-            <a href="https://sleepy-kalam-ec6829.netlify.app/" target="blank">
-              <button id="demo-button">Demo</button>
-            </a>
-          </div>
 
           <div>
             <Insta />
@@ -368,86 +598,10 @@ const Work = () => (
             </div>
           </span>
 
-          <div id="demo-wrap">
-            <a href="https://eloquent-nobel-425cb9.netlify.app/" target="blank">
-              <button id="demo-button">Demo</button>
-            </a>
-          </div>
-
           <div>
             <Recipe />
           </div>
 
-          <br />
-
-          <h3>Burger App</h3>
-          <p id="p1">
-            This app has the functionality to create your own burger with
-            dynamic prices. You can then order it. Complete with authentication
-            and user profiles. Integrated with a Firebase database to store
-            customers and orders placed.
-          </p>
-          <span id="build-span">
-            <p class="built">Built with: </p>
-            <div class="tooltip">
-              <img src={reactlogo} class="logo-sm" />
-              <span class="tooltiptext">React.js</span>
-            </div>
-            <div class="tooltip">
-              <img src={redux} class="logo-sm" />
-              <span class="tooltiptext">Redux</span>
-            </div>
-            <div class="tooltip">
-              <img src={sass} class="logo-sm" />
-              <span class="tooltiptext">Sass</span>
-            </div>
-
-            <div class="tooltip">
-              <img src={firebase} class="logo-sm" />
-              <span class="tooltiptext">Firebase</span>
-            </div>
-          </span>
-
-          <div>
-            <Burger />
-          </div>
-
-          <br />
-        </div>
-
-        <h2>JavaScript</h2>
-        <div>
-          <h3>Hangman Game</h3>
-          <p id="p1">
-            A simple game of hangman, connected to an API for random single-word
-            generation.
-          </p>
-          <span id="build-span">
-            <p class="built">Built with: </p>
-            <div class="tooltip">
-              <img src={html} class="logo-sm" />
-              <span class="tooltiptext">React.js</span>
-            </div>
-            <div class="tooltip">
-              <img src={css} class="logo-sm" />
-              <span class="tooltiptext">CSS3</span>
-            </div>
-            <div class="tooltip">
-              <img src={js} class="logo-sm" />
-              <span class="tooltiptext">JavaScript</span>
-            </div>
-          </span>
-          <div id="demo-wrap">
-            <a
-              href="https://nostalgic-perlman-e77f49.netlify.app/"
-              target="blank"
-            >
-              <button id="demo-button">Demo</button>
-            </a>
-          </div>
-          <div class="slider">
-            <Hangman />
-          </div>
           <br />
         </div>
 
@@ -522,8 +676,8 @@ const Work = () => (
               <span class="tooltiptext">WordPress</span>
             </div>
             <div class="tooltip">
-              <img src={gatsby} class="logo-sm" />
-              <span class="tooltiptext">Gatsby.js</span>
+              <img src={next} class="logo-sm" />
+              <span class="tooltiptext">Next.js</span>
             </div>
           </span>
           <div class="clear">
@@ -537,31 +691,6 @@ const Work = () => (
                 </a>
                 <p>wildlife preservation</p>
               </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="https://earthchild.africa/" class="link">
-                  earthchild.africa
-                </a>
-                <p>life coaching/ spirituality blog and podcast</p>
-              </li>
-              <li>
-                <a href="https://dollaretta.com/" class="link">
-                  dollaretta.com
-                </a>
-                <p>comic book ecommerce site</p>
-              </li>
-            </ul>
-          </div>
-
-          <div class="clear">
-            <ul>
-              <li>
-                <a href="https://ozramedia.co.za/" class="link">
-                  ozramedia.co.za
-                </a>
-                <p>business offerings and info site </p>
-              </li>
               <li>
                 <a href="https://flourishnetwork.org.za/" class="link">
                   flourishnetwork.org.za
@@ -569,22 +698,13 @@ const Work = () => (
                 <p>mother and baby support</p>
               </li>
               <li>
-                <a href="https://drjaninebrandt.com/" class="link">
-                  drjaninebrandt.com
+                <a href="https://dollaretta.netlify.app/" class="link">
+                  dollaretta.com
                 </a>
-                <p>esports and health blog</p>
-              </li>
-            </ul>
-          </div>
-          <div class="clear">
-            <ul>
-              <li>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                  <a href="https://mzansihospitality.co.za/" class="link">
-                    mzansihospitality.co.za
-                  </a>
-                  <p>events and hospitality services</p>
-                </div>
+                <p>
+                  comic book ecommerce site (Rebuild from WP to Next in
+                  progress)
+                </p>
               </li>
             </ul>
           </div>

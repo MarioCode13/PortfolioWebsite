@@ -35,34 +35,36 @@ const Main = (props) => {
           />
         </span>
         <p>
-          Hi, I'm Mario. I'm currently working as a frontend developer working
-          on a car sales and financing system for car dealerships and banks.
-          Primarily working with
+          Hi, I'm Mario. I'm a software developer building robust, user-focused
+          digital solutions. I have experience developing a broad range of
+          applications, from client-facing products to internal admin
+          dashboards, with a focus on creating intuitive experiences and
+          scalable architectures.{' '}
+        </p>
+        <p>
+          Primarily working with:
           <ul>
             <li>React</li>
+            <li>React Native</li>
             <li>Typescript</li>
             <li>GraphQL</li>
-            <li>Formik</li>
-            <li>MaterialUI</li>
-            <li>Java</li>
+            <li>Java (Spring Boot)</li>
+            <li>Postgres</li>
           </ul>
-          Have a look at some of my <a href="work">work</a>.
         </p>
         <p>
-          I love creating things, and working on interesting projects. There's
-          nothing quite like seeing the tangible end-product of what you've been
-          working on, bringing the concepts in your head to life. When a project
-          interests or challenges me, that's what I feel most excited about and
-          when I do my best work.
+          I’m passionate about bringing ideas to life — translating concepts
+          into real, working products that provide value to users and businesses
+          alike. I’m at my best when working on projects that challenge me to
+          think critically, solve problems creatively, and deliver polished,
+          maintainable solutions.
         </p>
         <p>
-          My ambition is to create great user experiences with exciting
-          functionality, whether its websites, applications or even more modern
-          mediums like VR and AR. That is why I've focused on being as well
-          rounded as possible across a broad set of frameworks and languages: to
-          ensure interoperability and the understanding to build on.
+          My ambition is to continue crafting seamless digital experiences
+          across web and mobile platforms, while deepening my expertise across
+          the full stack to deliver end-to-end solutions.
         </p>
-        {close}
+        Have a look at some of my <a href="work">work</a>.{close}
       </article>
 
       <article
@@ -79,19 +81,26 @@ const Main = (props) => {
           <StaticImage
             formats={['auto', 'webp']}
             src="../images/work.jpg"
-            alt="About"
+            alt="Work"
           />
         </span>
         <p>
-          I spent the majority of my early career building websites and
-          eventually getting more into the domain of web apps. I enjoy
-          continuous learning and keeping up to date with trends and
-          best-practices via experimentation through side projects.
+          Over the course of my career, I’ve worked across a variety of
+          web-based and mobile-based solutions — from building marketing
+          websites to developing full-scale applications with complex user flows
+          and backend integrations.
         </p>
 
         <p>
-          You can see a more detailed description of the projects I've worked on{' '}
-          <a href="work">here</a>.
+          I'm passionate about continuous learning, refining my craft, and
+          exploring new technologies through hands-on projects. Experimentation,
+          side projects, and staying current with best practices all play a big
+          role in how I grow and approach new challenges.
+        </p>
+
+        <p>
+          You can find a more detailed overview of the projects I've worked on{' '}
+          <a href="/work">here</a>.
         </p>
         {close}
       </article>
@@ -107,7 +116,7 @@ const Main = (props) => {
           to="https://publiuslogic.com"
           rel="noopener noreferrer"
           target="_blank"
-          area-label="PubliusLogic"
+          aria-label="PubliusLogic"
         >
           <h2 className="major">About</h2>
         </Link>
@@ -119,18 +128,29 @@ const Main = (props) => {
           />
         </span>
         <p>
-          I've been a musician for most of my life so I suppose the creative in
-          me made me love frontend development, although I do enjoy backend as
-          well. I've been dabbling in programming for about 5 years in which
-          time I started pursuing it as a career. I got myself a Bachelor of
-          Commerce degree from the University of South Africa with a double
-          major in Information Systems and Business Management. I studied while
-          working in marketing and helping a bit with the web development where
-          I developed a passion. I'm currently working as a frontend developer
-          building web-apps and internal administration systems.
+          With a background in both creative and technical fields, I bring a
+          well-rounded approach to software development. My passion for building
+          intuitive user experiences is rooted in a lifelong love of creativity
+          — shaped through music, and later expanded into design and technology.
         </p>
+
         <p>
-          Find some of my work <a href="work">here</a>.
+          I hold a Bachelor of Commerce degree from the University of South
+          Africa, with a double major in Information Systems and Business
+          Management. While working in marketing and supporting web development
+          initiatives, I discovered my passion for programming and shifted my
+          career focus toward building digital solutions.
+        </p>
+
+        <p>
+          Today, I work on a broad range of projects including web applications,
+          client-facing products, and internal administration systems —
+          leveraging both frontend and backend technologies to deliver complete
+          solutions.
+        </p>
+
+        <p>
+          You can explore some of my work <a href="/work">here</a>.
         </p>
         {close}
       </article>
