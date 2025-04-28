@@ -36,9 +36,18 @@ const Layout = ({ children, location }) => {
             meta={[
               {
                 name: 'description',
-                content: 'Donald Boulton Personal Web Site',
+                content: 'Mario Liebenberg Personal Web Site',
               },
-              { name: 'keywords', content: 'Donald Boulton, personal' },
+              { name: 'keywords', content: 'Mario Liebenberg, personal' },
+              // Add Content-Security-Policy here
+              {
+                httpEquiv: 'Content-Security-Policy',
+                content: `
+                  default-src 'self';
+                  style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://static.small.chat/messenger.css https://github.com https://api.bitbucket.org https://secure.gravatar.com https://media-library.cloudinary.com https://identity.netlify.com https://res.cloudinary.com https://static.doubleclick.net https://widget.cloudinary.com https://www.youtube.com https://youtube.de https://twitter.com https://*.twimg.com;
+                  font-src 'self' https://fonts.gstatic.com;
+                `,
+              },
             ]}
           >
             <link
