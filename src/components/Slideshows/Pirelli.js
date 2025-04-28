@@ -49,11 +49,7 @@ function SlideShow() {
         }}
       >
         <Img
-          fluid={
-            window.innerWidth <= 768
-              ? node.childImageSharp.small
-              : node.childImageSharp.fluid
-          }
+          fluid={node.childImageSharp.fluid}
           key={node.id}
           alt={node.name.replace(/-/g, ' ').substring(2)}
           style={{
