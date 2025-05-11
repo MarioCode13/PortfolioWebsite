@@ -20,7 +20,7 @@ function SlideShow() {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
                 # Optionally add smaller sizes for mobile (maxWidth: 768px for example)
-                small: fluid(maxWidth: 768) {
+                small: fluid(maxWidth: 120) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
@@ -54,11 +54,12 @@ function SlideShow() {
           fluid={node.childImageSharp.fluid}
           key={node.id}
           alt={node.name.replace(/-/g, ' ').substring(2)}
-          style={{
-            maxHeight: '200px',
-            maxWidth: '120px',
-            margin: 'auto',
-          }}
+          className="slide-img"
+          // style={{
+          //   maxHeight: '200px',
+          //   maxWidth: '120px',
+          //   margin: 'auto',
+          // }}
         />
       </div>
       <div id="slider-button">

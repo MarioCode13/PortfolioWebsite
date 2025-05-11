@@ -369,6 +369,36 @@
   margin-right: auto;
 }
 
+.slide-img{
+  max-height: 200px;
+  max-width: 120px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .slide-img {
+    max-height: 350px;
+    max-width: 220px;
+  }
+}
+
+/* For small desktops/laptops (≥ 1024px) */
+@media (min-width: 1024px) {
+  .slide-img {
+    max-height: 420px;
+    max-width: 290px;
+  }
+}
+
+/* For large desktops (≥ 1440px) */
+@media (min-width: 1440px) {
+  .slide-img {
+    max-height: 500px;
+    max-width: 300px;
+  }
+}
+
+
 #back-top {
   float: right;
   font-size: 4rem;
