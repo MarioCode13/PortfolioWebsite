@@ -64,7 +64,10 @@ const Main = (props) => {
           across web and mobile platforms, while deepening my expertise across
           the full stack to deliver end-to-end solutions.
         </p>
-        Have a look at some of my <a href="work">work</a>.{close}
+        <p>
+          Have a look at some of my <a href="/work">work</a>.
+        </p>
+        {close}
       </article>
 
       <article
@@ -135,7 +138,7 @@ const Main = (props) => {
         </p>
 
         <p>
-          I hold a Bachelor of Commerce degree from the University of South
+          I have a Bachelor of Commerce degree from the University of South
           Africa, with a double major in Information Systems and Business
           Management. While working in marketing and supporting web development
           initiatives, I discovered my passion for programming and shifted my

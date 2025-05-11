@@ -406,7 +406,7 @@ const Work = () => (
 
           <br />
 
-          <h3>Banking Utility App</h3>
+          <h3>Banking Forex Utility App</h3>
           <p id="p1">
             A project to create requests for currency exchanges and for the bank
             to track them and generate pdf reports. Integrated with login
@@ -680,34 +680,31 @@ const Work = () => (
               <span class="tooltiptext">Next.js</span>
             </div>
           </span>
-          <div class="clear">
-            <ul>
-              <li>
-                <a
-                  href="https://connectedconservation.foundation/"
-                  class="link"
-                >
-                  connectedconservation.foundation
-                </a>
-                <p>wildlife preservation</p>
-              </li>
-              <li>
-                <a href="https://flourishnetwork.org.za/" class="link">
-                  flourishnetwork.org.za
-                </a>
-                <p>mother and baby support</p>
-              </li>
-              <li>
-                <a href="https://dollaretta.netlify.app/" class="link">
-                  dollaretta.com
-                </a>
-                <p>
-                  comic book ecommerce site (Rebuild from WP to Next in
-                  progress)
-                </p>
-              </li>
-            </ul>
-          </div>
+          <ul className="project-links">
+            <li>
+              <a
+                href="https://connectedconservation.foundation/"
+                className="link"
+              >
+                connectedconservation.foundation
+              </a>
+              <p style={{ marginBottom: 0 }}>wildlife preservation</p>
+            </li>
+            <li>
+              <a href="https://flourishnetwork.org.za/" className="link">
+                flourishnetwork.org.za
+              </a>
+              <p style={{ marginBottom: 0 }}>mother and baby support</p>
+            </li>
+            <li>
+              <a href="https://dollaretta.netlify.app/" className="link">
+                dollaretta.com
+              </a>
+              <p style={{ marginBottom: 0 }}>
+                comic book ecommerce site (Rebuild from WP to Next in progress)
+              </p>
+            </li>
+          </ul>
 
           <div class="slider">
             <Websites />

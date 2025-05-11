@@ -283,6 +283,7 @@
   margin-left: 10px;
   margin-bottom: 10px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .scrollTop {
@@ -471,6 +472,29 @@
   clear: both;
   column-count: 3;
 }
+
+.project-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-links li { 
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.project-links .link {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+
 .link {
   color: rgb(100, 67, 247);
   text-decoration: underline;

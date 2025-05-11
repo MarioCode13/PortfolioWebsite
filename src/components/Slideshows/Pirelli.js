@@ -45,7 +45,9 @@ function SlideShow() {
         id="burger-image"
         className="image main"
         style={{
-          maxWidth: '320px',
+          width: '100%',
+          // display: 'flex',
+          // justifyContent: 'center',
         }}
       >
         <Img
@@ -53,7 +55,9 @@ function SlideShow() {
           key={node.id}
           alt={node.name.replace(/-/g, ' ').substring(2)}
           style={{
-            maxHeight: '500px',
+            maxHeight: '200px',
+            maxWidth: '120px',
+            margin: 'auto',
           }}
         />
       </div>
